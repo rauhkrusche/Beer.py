@@ -1,5 +1,5 @@
 [![Build Status](https://travis-ci.org/rauhkrusche/Beer.py.svg?branch=master)](https://travis-ci.org/rauhkrusche/Beer.py)
-[![PyPI](https://img.shields.io/pypi/v/Beer.py.svg?maxAge=2592000)](pypi.python.org/pypi/Beer.py)
+[![PyPI](https://img.shields.io/pypi/v/Beer.py.svg?maxAge=2592000)](https://pypi.python.org/pypi/Beer.py)
 
 Beer.py
 =======
