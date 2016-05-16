@@ -10,7 +10,7 @@ A [Beer](https://github.com/rauhkrusche/Beer) implementation in Python.
 - Python 2.6 or higher
 
 ## Installation ##
-The easiest way to install Beer.py is to use our [PyPI package](https://www.nuget.org/packages/Beer.NET):
+The easiest way to install Beer.py is to use our [PyPI package](https://pypi.python.org/pypi/Beer.py):
 
 for Python 2:
 ```
