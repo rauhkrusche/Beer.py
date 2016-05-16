@@ -8,9 +8,13 @@
 test/
 test.py
 
+# Deployment
+deployment/
+
+# Other
+MANIFEST
 
 # Created by https://www.gitignore.io/api/python
-
 ### Python ###
 # Byte-compiled / optimized / DLL files
 __pycache__/

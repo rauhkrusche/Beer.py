@@ -1,4 +1,3 @@
-#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
 
@@ -12,7 +11,7 @@ class Beer:
         text = text.replace(",", "BEER_BEER∫")
 
         for i in range(0, len(Beer.LETTERS)):
-            if Beer.LETTERS[i] not in {'b', 'e', 'r'}:
+            if Beer.LETTERS[i] not in ['b', 'e', 'r']:
                 text = text.replace(Beer.LETTERS[i].upper(), Beer.repeat_string('∫', 'µ', i))
 
             text = text.replace(Beer.LETTERS[i], Beer.repeat_string('∫', 'BEER', i))
@@ -25,7 +24,7 @@ class Beer:
         text = text.replace("BEER_BEER∫", ",")
 
         for i in range(len(Beer.LETTERS) - 1, -1, -1):
-            if Beer.LETTERS[i] not in {'b', 'e', 'r'}:
+            if Beer.LETTERS[i] not in ['b', 'e', 'r']:
                 text = text.replace(Beer.repeat_string('∫', 'µ', i), Beer.LETTERS[i].upper())
 
             text = text.replace(Beer.repeat_string('∫', 'BEER', i), Beer.LETTERS[i])

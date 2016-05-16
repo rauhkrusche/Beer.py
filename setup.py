@@ -2,11 +2,12 @@ from distutils.core import setup
 
 setup(
     name='Beer.py',
-    version='0.1.0',
+    version='0.1.3',
     packages=['beer'],
     url='https://github.com/rauhkrusche/Beer.py',
-    license='https://github.com/rauhkrusche/Beer.py/blob/master/LICENSE',
+    license='MIT License',
     author='Benjamin Leuckefeld',
     author_email='code@deratrox.de',
-    description='A Beer implemention in Python.'
+    description='A Beer implementation in Python.',
+    keywords='beer.py beer python library'
 )
