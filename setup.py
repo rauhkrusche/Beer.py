@@ -2,7 +2,7 @@ from distutils.core import setup
 
 setup(
     name='Beer.py',
-    version='0.1.3',
+    version='0.1.0',
     packages=['beer'],
     url='https://github.com/rauhkrusche/Beer.py',
     license='MIT License',

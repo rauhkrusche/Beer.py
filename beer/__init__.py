@@ -1,2 +1,2 @@
-from beer import *
+from .beer import *
 
