@@ -1,0 +1,9 @@
+# JetBrains PyCharm project folder
+.idea/
+
+# Visual Studio Code project folder
+.vscode/
+
+# Local test files
+test/
+test.py
